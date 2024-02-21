@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Google</title>
     <link rel="stylesheet" href="./assets/css/index.css" />
     <script src="./assets/js/main.js" defer></script>
   </head>
@@ -13,8 +13,27 @@
         src="./assets/images/googlelogo_light_color_272x92dp.png"
         alt="Google Logo"
       />
+
       <form action="./views/search-results.html">
-        <input id="search-term" type="search" name="q" autofocus />
+        <div class="search-bar">
+          <div id="controls">
+            <img
+              class="search-icon"
+              src="./assets/images/search-icon.png"
+              alt=""
+            />
+            <textarea name="q" id="search-term" autofocus rows="1"></textarea>
+            <div class="close-icon-wrapper">
+              <img
+                class="icon icon-close"
+                src="./assets/images/close.png"
+                alt=""
+              />
+            </div>
+            <img class="icon" src="./assets/images/microphone.jpg" alt="" />
+            <img class="icon" src="./assets/images/shot.jpg" alt="" />
+          </div>
+        </div>
         <ul id="search-hint">
           <li>
             <a href="./views/search-results.html"
