@@ -6,7 +6,7 @@
 
 body {
   background-color: #202124;
-  max-width: 630px;
+  max-width: 680px;
   color: #bdc1c6;
   padding: 20px;
 }
@@ -61,7 +61,7 @@ body {
 
 .show {
   display: flex;
-  gap: 30px;
+  gap: 40px;
 }
 
 .results {

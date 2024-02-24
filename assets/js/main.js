@@ -27,6 +27,7 @@ const operation = () => {
     searchTerm.style.width = "443px";
   }
 };
+
 closeIcon.addEventListener("click", () => {
   searchTerm.value = "";
   searchTerm.focus();
